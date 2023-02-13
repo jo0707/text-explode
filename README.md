@@ -8,8 +8,6 @@
     Make your text "explode" with CSS transform! Built with Vite, Vue 3, DaisyUI, and Typescript.
 </p>
 
-<sub>Yes, the code is still a mess and the computer opponent only uses the Math.random() function</sub>
-
 
 ## Frameworks
   * [Vite](https://vitejs.dev/)
