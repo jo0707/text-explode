@@ -1,6 +1,6 @@
 <template>
   <div class="h-full flex flex-col text-center justify-between">
-    <div class="h-fit rounded bg-base-200">
+    <div class="h-fit rounded shadow bg-base-200">
       <p
         ref="container"
         class="text-2xl font-sans p-6 children:duration-[600ms]"
@@ -17,7 +17,7 @@
     </div>
 
     <button
-      class="btn btn-success"
+      class="btn btn-success mt-2"
       @click.prevent="store.properties.refresh = !store.properties.refresh"
     >
       Shuffle

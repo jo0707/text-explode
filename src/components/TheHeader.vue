@@ -23,7 +23,7 @@
         </svg>
       </button>
       <a
-        class="btn btn-ghost -md:btn-sm hover:bg-base-100"
+        class="btn btn-ghost -sm:hidden hover:bg-base-100"
         href="https://jodev.my.id/"
         target="_blank"
         >made by Jo</a
