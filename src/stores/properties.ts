@@ -18,8 +18,8 @@ export const usePropertiesStore = defineStore("properties", () => {
       let x = getRandom(-properties.value.x, properties.value.x);
       let y = getRandom(-properties.value.y, properties.value.y);
       let r = getRandom(-properties.value.r, properties.value.r);
-      let o = 1 - getRandom(-properties.value.o, properties.value.o) / 100;
-      let s = getRandom(-properties.value.s, properties.value.s) / 100 + 1;
+      let o = (1 - getRandom(-properties.value.o, properties.value.o) / 100).toFixed(2);
+      let s = (getRandom(-properties.value.s, properties.value.s) / 100 + 1).toFixed(2);
 
       transforms.value.push(
         `translate(${x}px, ${y}px) rotate(${r}deg) scale(${s})`
