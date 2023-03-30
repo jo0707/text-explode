@@ -16,7 +16,7 @@
   * [DaisyUI](https://daisyui.com/)
 
 ## App
-Web : [CSS Text Explode Generator]()
+Web : [CSS Text Explode Generator](text-explode.vercel.app)
 
 
 ## Build
